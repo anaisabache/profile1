@@ -1,0 +1,101 @@
+/* Colors and Fonts */ 
+
+body {
+    background: #222222;
+    color: #393646; /* Dark Gray */
+    font-family: "Noto Serif", serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+h1, h2, h3 {
+    font-family: "Montserrat", sans-serif; /* Elegant font */
+    font-weight: bold; /* Bold */
+    font-size: 36px; /* Larger size */
+    font-style: normal;
+}
+
+h1 {
+    color: #176B87; /* dark blue */
+    font-weight: 900; /* Bold */
+    letter-spacing: 2px;
+    font-size: 60px;
+}
+
+h2 {
+    color: #176B87; /* dark blue */
+    font-weight: 700;
+}
+
+/* Custom Design with Class */
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    margin: 40px auto;
+
+@media (max-width: 800px) {
+  /* For a screen < 800px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 600px) {
+  /* For a screen < 600px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  /* For a screen < 500px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+    background-color: ghostwhite; /* White */
+    padding: 40px;
+    box-shadow: 5px 10px 20px rgba(5, 5, 5, 5.1);
+    border-radius: 8px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+
+.img-rectangle3 {
+    border-radius: 10%;
+    width: 155px; 
+    height: 220px; 
+    align-content: inline;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 12px;
+}
+
+.list-inline i {
+    font-size: 36px;
+    color: #1F618D; /* Darker Blue */
+    transition: color 0.3s ease;
+}
+
+.list-inline i:hover {
+    color: #000000; /* Black */
+}
+
+#introduction p {
+    margin-bottom: 40px;
+} 
+
+
+
+
+
